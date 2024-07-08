@@ -1,0 +1,32 @@
+/*
+Write a complete Java program in a class named Egg2. Use static methods to show structure and eliminate redundancy in your solution.
+
+*/
+
+public class Egg2 {
+    public static void main (String[] args) {
+        // egg 1
+        top(); bottom(); crack();
+        
+        // egg 2
+        top(); bottom(); crack(); bottom();
+        
+        // egg 3 
+        top(); crack(); bottom();
+    }
+    
+    public static void top() {
+        System.out.println("  _______");
+        System.out.println(" /       \\");
+        System.out.println("/         \\");
+    }
+    
+    public static void bottom() {
+        System.out.println("\\         /");
+        System.out.println(" \\_______/");
+    }
+
+    public static void crack() {
+        System.out.println("-\"-'-\"-'-\"-");
+    }
+}

@@ -1,0 +1,33 @@
+/*
+Write a program in a class named Shining that prints the following line of output 1000 times: "All work and no play makes Jack a dull boy."
+
+You should not write a program whose source code is 1000 lines long; use methods to shorten the program. 
+
+*/
+
+public class Shining {
+    public static void main(String[] args){
+        thousands();
+    }
+    
+    public static void a() {
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+    }
+    
+    public static void b() {
+        a(); a(); a(); a(); a(); a(); a(); a(); a(); a();
+    }
+    
+    public static void thousands(){
+        b(); b(); b(); b(); b(); b(); b(); b(); b(); b();
+    }
+}

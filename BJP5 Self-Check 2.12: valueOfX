@@ -1,0 +1,10 @@
+/*
+What is the value of variable x after the following code executes?
+
+int x = 3;
+x = x + 2; // 3 + 2 is 5
+x = x + x; // 5 + 5 is 10
+
+*/
+
+10
